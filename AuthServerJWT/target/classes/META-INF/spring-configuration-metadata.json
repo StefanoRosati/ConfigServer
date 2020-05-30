@@ -1,0 +1,62 @@
+{
+  "groups": [
+    {
+      "name": "gestuser",
+      "type": "com.xantrix.webapp.security.UserConfig",
+      "sourceType": "com.xantrix.webapp.security.UserConfig"
+    },
+    {
+      "name": "sicurezza",
+      "type": "com.xantrix.webapp.security.JwtConfig",
+      "sourceType": "com.xantrix.webapp.security.JwtConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "gestuser.password",
+      "type": "java.lang.String",
+      "sourceType": "com.xantrix.webapp.security.UserConfig"
+    },
+    {
+      "name": "gestuser.srv-url",
+      "type": "java.lang.String",
+      "sourceType": "com.xantrix.webapp.security.UserConfig"
+    },
+    {
+      "name": "gestuser.user-id",
+      "type": "java.lang.String",
+      "sourceType": "com.xantrix.webapp.security.UserConfig"
+    },
+    {
+      "name": "sicurezza.expiration",
+      "type": "java.lang.Integer",
+      "sourceType": "com.xantrix.webapp.security.JwtConfig"
+    },
+    {
+      "name": "sicurezza.header",
+      "type": "java.lang.String",
+      "sourceType": "com.xantrix.webapp.security.JwtConfig"
+    },
+    {
+      "name": "sicurezza.prefix",
+      "type": "java.lang.String",
+      "sourceType": "com.xantrix.webapp.security.JwtConfig"
+    },
+    {
+      "name": "sicurezza.refresh",
+      "type": "java.lang.String",
+      "sourceType": "com.xantrix.webapp.security.JwtConfig"
+    },
+    {
+      "name": "sicurezza.secret",
+      "type": "java.lang.String",
+      "sourceType": "com.xantrix.webapp.security.JwtConfig"
+    },
+    {
+      "name": "sicurezza.uri",
+      "type": "java.lang.String",
+      "sourceType": "com.xantrix.webapp.security.JwtConfig"
+    }
+  ],
+  "hints": []
+}
